@@ -1,0 +1,193 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    margin-top: 23px;
+    opacity: 0.75;
+}
+
+#footlinks {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    margin: 0;
+    opacity: 0.75;
+    padding: 0;
+    bottom: 0;
+}
+
+.left {
+    float: left;
+    margin-left: 17px;
+}
+
+.right{
+    float: right;
+    margin-right: 17px;
+    color: black;
+}
+
+.right li {
+    padding: 0 10px;
+}
+
+#appsicon {
+    font-size: 20px;
+    opacity: 0.70;
+}
+
+nav {
+    top: 0;
+    display: block;
+    margin-bottom: 150px;
+}
+
+li {
+    display: inline;
+    padding: 4px;
+}
+
+.signin {
+    border-radius: 3px;
+    border: none;
+    padding: 8px;
+    width: 70px;
+    color: white;
+    background: #2f6bd3;
+    font-weight: bold;
+}
+
+.maincontainer img {
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 272px;
+    height: 92px;
+}
+
+input {
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 auto 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+input:focus {
+    outline: none;
+}
+
+.buttons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbutton {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 5px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbutton:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer {
+    position: absolute;
+    background-color: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(209,209,209);
+}
+
+#footer .left a {
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+#footer .right a {
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+#shown {
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(122,124,126)
+    font-family: sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+#hidden {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+.micbutton {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(1050#,-250%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
